@@ -99,7 +99,7 @@ nav {
 .port-images img {
   width: 100%;
   max-width: 400px;
-
+  max-height: 400px;
   margin: 1rem;
 }
 
@@ -189,5 +189,6 @@ footer {
   .port-images img {
     width: 80%;
     margin: 1rem;
+    max-height: 400px;
   }
 }
