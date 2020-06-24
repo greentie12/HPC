@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.logo-container img {
+  width: 10vh;
+}
+
+nav {
+  background: #1f7d92;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-link {
+  padding: 1rem;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.experience-banner {
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/banner-buildings.jpg");
+  background-color: aquamarine;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan {
+  background: #2f367b;
+  color: #ffffff;
+  opacity: 0.9;
+  width: 100%;
+  text-align: center;
+}
+
+.slogan h1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.slogan p {
+  font-size: 1.2rem;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.portfolio {
+  width: 80%;
+  margin: auto;
+}
+
+.portfolio h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+  padding: 2rem 0;
+  letter-spacing: 1px;
+}
+
+.port-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.port-images img {
+  width: 100%;
+  max-width: 400px;
+  min-width: 325px;
+  margin: 1rem;
+}
+
+.our-team {
+  width: 100%;
+  text-align: center;
+  background-color: #1f7d92;
+  color: #ffffff;
+}
+
+.our-team h2 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.portfolio-sec {
+  background-image: url("../img/team-back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team-imgs {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.photos-idv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2e2e2e;
+  padding-top: 1rem;
+}
+
+.photos-idv h4,
+.photos-idv p {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.photos-idv h4 {
+  font-size: 1.5rem;
+}
+
+.team-imgs img {
+  height: 300px;
+}
+
+footer {
+  background-color: #30336b;
+}
+
+.foot {
+  padding-top: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .experience-banner {
+    width: 100%;
+    height: 275px;
+  }
+
+  .slogan h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .slogan p {
+    font-size: 1rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+  }
+
+  .portfolio h1 {
+    font-size: 2rem;
+  }
+
+  .port-images img {
+    width: 40%;
+    min-width: 300px;
+    margin: 1rem;
+  }
+}
