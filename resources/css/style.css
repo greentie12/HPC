@@ -94,12 +94,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 100%;
 }
 
 .port-images img {
-  width: 100%;
-  max-width: 400px;
-  max-height: 400px;
+  width: 40%;
   margin: 1rem;
 }
 
@@ -187,8 +186,7 @@ footer {
   }
 
   .port-images img {
-    width: 80%;
+    width: 90%;
     margin: 1rem;
-    max-height: 400px;
   }
 }
